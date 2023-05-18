@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "BuildProject",
+            "command": "npm",
+            "args": ["run", "build"],
+        },
+        {
+            "label": "RunProject",
+            "command": "npm",
+            "args": ["run", "monitor"],
+        }
+    ]
+}

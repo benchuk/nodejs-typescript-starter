@@ -1,0 +1,22 @@
+{
+     "buildOptions": {
+        "build" : true
+  },
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es5",
+        "rootDir": "src",
+        "declaration": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": "./",
+        "listFiles": false,
+       "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"]
+}

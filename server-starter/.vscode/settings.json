@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "azurecr",
+        "BACKCOMPAT",
+        "epsilonregistery",
+        "middlewares"
+    ],
+    "workbench.colorTheme": "Cloud9 Inspired Theme",
+    "workbench.iconTheme": "vs-nomo-dark",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal"
+}

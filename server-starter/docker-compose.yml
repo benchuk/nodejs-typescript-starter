@@ -1,0 +1,14 @@
+version: "1.0"
+services:
+  server:
+    restart: always
+    image: your_custom_name
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./env/docker.env
+    # environment:
+    #   - PORT=${PORT}
+    #   - MONGO_URL=${MONGO_URL}
+    ports:
+      - "3000:3000"

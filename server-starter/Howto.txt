@@ -1,0 +1,10 @@
+How to create a fresh server
+- git init
+- Create express server - npm init -y
+- Add .gitignore
+- Add tsconfig.json
+- npm:
+    npm install express 
+    npm install --save-dev nodemon
+    npm install mongoose  
+    npm install ts-node
